@@ -1,0 +1,7 @@
+acf_kibo.settings:
+  path: '/admin/structure/kibo/settings'
+  defaults:
+    _form: '\Drupal\acf_kibo\Form\KiboSettingsForm'
+    _title: 'Kibo Commerce Importer Settings'
+  requirements:
+    _permission: 'administer site configuration'

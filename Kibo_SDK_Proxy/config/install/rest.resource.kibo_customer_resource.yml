@@ -1,0 +1,7 @@
+id: kibo_customer_resource
+plugin_id: kibo_customer_resource
+granularity: method
+configuration:
+  POST:
+    supported_formats:
+      - json

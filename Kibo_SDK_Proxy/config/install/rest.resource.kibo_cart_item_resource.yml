@@ -1,0 +1,7 @@
+id: kibo_cart_item_resource
+plugin_id: kibo_cart_item_resource
+granularity: method
+configuration:
+  POST:
+    supported_formats:
+      - json

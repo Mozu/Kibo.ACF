@@ -1,0 +1,5 @@
+name: 'Kibo REST Endpoints'
+type: module
+description: 'Kibo REST Endpoints'
+core: 8.x
+package: 'Acquia Commerce Framework'

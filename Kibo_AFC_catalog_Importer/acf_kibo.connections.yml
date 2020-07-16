@@ -1,0 +1,4 @@
+kibo_products:
+  type: 'kibo_connection'
+  label: 'kibo Commerce'
+  endpoint: '/api/simple/kibo_products/'

@@ -1,0 +1,27 @@
+{
+    "name": "kibo_sdk_proxy",
+    "type": "drupal-module",
+    "description": "Kibo API client and SDK rest proxy",
+    "keywords": [],
+    "authors": [
+        {
+            "name": "Aaron Jones",
+            "email": "aaron.jones@kibocommerce.com"
+        }
+    ],
+    "homepage": "https://kibocommerce.com/",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5",
+        "guzzlehttp/guzzle": "6.0.2",
+        "guzzlehttp/psr7": "~1.1",
+        "guzzlehttp/promises": "~1.0",
+        "apache/log4php": "2.3.0",
+        "symfony/property-access": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mozu\\Api\\": "src/Mozu/Api/"
+        }
+    }
+}
